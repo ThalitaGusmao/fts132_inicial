@@ -35,6 +35,11 @@ def calcular_area_do_circulo(raio):
     return 3.14 * raio ** 2
 
 
+
+
+def calcular_volume_do_paralelograma(largura, comprimento, altura):
+     return largura * comprimento * altura
+
 if __name__ == '__main__':
 
     # Garçon - Requisições / Chamadas
@@ -81,5 +86,3 @@ def testar_somar_dois_numeros():
     # - 3ª Etapa: Confirma / Check / Valida
     assert resultado_atual == resultado_esperado
 '''
-
-    ### Oiii
